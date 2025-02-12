@@ -23,6 +23,8 @@ This project requires **Python 3.11** as it is the last version that supports ce
 7. Start the server
    - fastapi run main.py
 
+There is a branch in Audiate that I used to test this endpoint, voiceVerificationConcept
+
 ## Testing Notes
 - Scores are deterministic
 - Able to accurately score my voice when using a short verification script (5s) and a longer cloning script (~1m) with a laptop microphone. Scores ranged from 0.90 to 0.97. This included using different voice moods and tones.
